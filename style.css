@@ -127,6 +127,31 @@ h2 {
     color: #333;
 }
 
+.position-card h3 {
+    font-family: 'Lilita One', cursive;
+    color: #E81372;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.position-card h3::before {
+    content: "📌";
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.position-card .detail {
+    margin: 10px 0;
+    color: #555;
+}
+
+.position-card .detail strong {
+    color: #333;
+}
+
 .position-card .btn {
     display: inline-block;
     margin-top: 15px;
