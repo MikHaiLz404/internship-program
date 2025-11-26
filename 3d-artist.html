@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Artist - รับสมัครนักศึกษาฝึกงาน</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Assistant', 'Sarabun', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #E81372 0%, #E94C4D 25%, #ED6445 50%, #FF7200 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #E81372 0%, #E94C4D 25%, #ED6445 50%, #FF7200 100%);
+            color: #FDEDE3;
+            padding: 40px;
+        }
+
+        header h1 {
+            font-family: 'Lilita One', cursive;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #FDEDE3;
+        }
+
+        header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+            color: #FDEDE3;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #FDEDE3;
+            text-decoration: none;
+            opacity: 0.9;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-family: 'Lilita One', cursive;
+            color: #E81372;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #FF7200;
+        }
+
+        .info-box {
+            background: #fff8f5;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 5px solid #FF7200;
+        }
+
+        .info-box h3 {
+            font-family: 'Lilita One', cursive;
+            color: #E81372;
+            margin-bottom: 15px;
+        }
+
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info-box ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .info-box ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #FF7200;
+            font-weight: bold;
+        }
+
+        .qualifications ul, .responsibilities ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .qualifications ul li, .responsibilities ul li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .qualifications ul li::before {
+            content: "▹";
+            position: absolute;
+            left: 10px;
+            color: #E81372;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .responsibilities ul li::before {
+            content: "•";
+            position: absolute;
+            left: 10px;
+            color: #FF7200;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .apply-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #E81372 0%, #FF7200 100%);
+            color: #FDEDE3;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: 600;
+            transition: transform 0.3s;
+            box-shadow: 0 5px 15px rgba(232, 19, 114, 0.3);
+        }
+
+        .apply-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 114, 0, 0.4);
+        }
+
+        .apply-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        .highlight {
+            color: #E81372;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">← กลับหน้าหลัก</a>
+            <h1>3D Artist Intern</h1>
+            <p class="subtitle">Create Stunning 3D Assets for Games</p>
+        </header>
+
+        <div class="content">
+            <section>
+                <div class="info-box">
+                    <h3>ข้อมูลทั่วไป</h3>
+                    <ul>
+                        <li><strong>จำนวนรับ:</strong> 1 ตำแหน่ง</li>
+                        <li><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่นตามภาคเรียน)</li>
+                        <li><strong>สถานที่:</strong> Hybrid Work (สลับทำงานที่สำนักงานและที่บ้าน)</li>
+                        <li><strong>เวลาทำงาน:</strong> จันทร์-ศุกร์ 09:00-18:00 น.</li>
+                        <li><strong>โปรเจคปัจจุบัน:</strong> Regulus - The Advent, Father's Son and Holy Gun</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>เกี่ยวกับตำแหน่ง</h2>
+                <p>3D Artist จะได้รับการฝึกอบรมและระบบการให้คำปรึกษา วิชาชั้นเรียนในเกม เช่น ตัวละครจากงานร่วมกัน ด้านเทคนิคหรือนักออกแบบสร้างสรรค์ และผู้กำกับศิลป์ หรือแม้แต่คนอื่นๆที่เกี่ยวข้องกับเทคนิคศิลปะตั้งแต่ concept art ที่ออกแบบมาเป็น visual จำลองภายในเกม</p>
+            </section>
+
+            <section class="qualifications">
+                <h2>คุณสมบัติ</h2>
+                <ul>
+                    <li>มีความรู้และเข้าใจเกี่ยวกับการทำ model และ texture</li>
+                    <li>ทำงานจาก model จาก concept แก้ของ project ที่ผ่านมา</li>
+                    <li>ลงมือทำงานจริง ทำ model และ texture จาก concept ข้างบนบนนี้ เจาะลงมาจนเป็นงาน</li>
+                    <li>ลงมือทำงานจริง ทำ model และ texture จาก concept ข้างต้นมาจนเติมงาน</li>
+                </ul>
+            </section>
+
+            <section class="responsibilities">
+                <h2>ความรับผิดชอบหลัก</h2>
+                <ul>
+                    <li>สร้าง 3D character model และ texture</li>
+                    <li>สร้าง 3D environment model และ texture</li>
+                    <li>ทำงานร่วมกับทีมเพื่อให้แน่ใจว่างานมีคุณภาพและตรงตามกำหนดเวลา</li>
+                    <li>ปรับแต่งและแก้ไข models ตาม feedback จากทีม</li>
+                    <li>เรียนรู้และใช้เทคนิคใหม่ๆ ในการสร้าง 3D assets</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>สิ่งที่จะได้เรียนรู้</h2>
+                <div class="info-box">
+                    <ul>
+                        <li>เรียนรู้และรับทักษะการใช้โปรแกรมและระบบการทำงาน</li>
+                        <li>ได้เรียนรู้มือสร้าง model จาก concept ซึ่งสามารถทำงานในกรณีอื่นได้ดีขึ้น</li>
+                        <li>ได้ลงมือทำงานจริง จากไป project ใช้จริง และเอาไปลง end credit ของเกมสินค้าในความพยายาม</li>
+                        <li>เมื่อโจทีฏภาษาได้ทำงานจริงจากไป project ใช้จริงไปและไม่ได้วัตถุประสงค์ในต่อนั้นมีนะเป็นภาพมีเป็นผลลัพท์นั้นถึงแม้นี้ส่วนคนอื่นเป็นแนวความคิดในหรือ usability flows หรือสิ่งที่ส่งไปโจนเป็น wireframes หรือ game assets อย่างไรก็ตาม คุณภาพของงานต้องเป็นไปตามมาตรฐานอุตสาหกรรมเป็นอย่างน้อย</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Software และ Tools ที่ใช้</h2>
+                <div class="info-box">
+                    <p><strong>3D Software:</strong> Blender, Maya, 3ds Max, ZBrush</p>
+                    <p><strong>Texturing:</strong> Substance Painter, Substance Designer, Photoshop</p>
+                    <p><strong>Game Engine:</strong> Unity, Unreal Engine</p>
+                    <p><strong>Version Control:</strong> Git, Perforce</p>
+                    <p><strong>Collaboration:</strong> Google Drive, Slack</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Required Skills</h2>
+                <div class="info-box">
+                    <p><strong>ทักษะการออกแบบ:</strong> เข้าใจองค์ประกอบพื้นฐาน เช่น anatomy, perspective, gesture, color, rhythm, composition, shape, material</p>
+                </div>
+            </section>
+
+            <div class="apply-section">
+                <h2>สนใจสมัคร?</h2>
+                <p style="margin: 20px 0;">ส่งเอกสารสมัครงานมาที่ internship@company.com</p>
+                <a href="mailto:internship@company.com?subject=สมัครฝึกงาน 3D Artist" class="apply-btn">สมัครเลย</a>
+                <p style="margin-top: 30px; color: #666;">
+                    <strong>เอกสารประกอบการสมัคร:</strong><br>
+                    Resume/CV (English version), Transcript, <strong style="color: #5cb3cc;">Portfolio (บังคับ)</strong> - ต้องแสดงผลงาน 3D models
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 All Rights Reserved | <a href="index.html" style="color: #FF7200;">กลับหน้าหลัก</a></p>
+        </footer>
+    </div>
+</body>
+</html>

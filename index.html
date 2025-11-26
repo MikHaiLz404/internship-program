@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รับสมัครนักศึกษาฝึกงาน</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Assistant', 'Sarabun', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #E81372 0%, #E94C4D 25%, #ED6445 50%, #FF7200 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #E81372 0%, #E94C4D 25%, #ED6445 50%, #FF7200 100%);
+            color: #FDEDE3;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-family: 'Lilita One', cursive;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #FDEDE3;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .intro h2 {
+            font-family: 'Lilita One', cursive;
+            color: #E81372;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .positions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .position-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid #e9ecef;
+        }
+
+        .position-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(232, 19, 114, 0.3);
+        }
+
+        .position-card h3 {
+            font-family: 'Lilita One', cursive;
+            color: #E81372;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .position-card h3::before {
+            content: "📌";
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .position-card .detail {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .position-card .detail strong {
+            color: #333;
+        }
+
+        .position-card .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 25px;
+            background: linear-gradient(135deg, #E81372 0%, #FF7200 100%);
+            color: #FDEDE3;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.2s;
+            font-weight: 600;
+        }
+
+        .position-card .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .timeline {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+
+        .timeline h2 {
+            font-family: 'Lilita One', cursive;
+            color: #E81372;
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            border-left: 4px solid #FF7200;
+        }
+
+        .timeline-date {
+            flex: 0 0 200px;
+            font-weight: bold;
+            color: #E81372;
+        }
+
+        .timeline-content {
+            flex: 1;
+            color: #555;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer a {
+            color: #FF7200;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="Logo PNG Export/Colored/JumboJumps_Tertiary_Logo_Colored.png" alt="JumboJumps Logo" class="logo">
+            <h1>รับสมัครนักศึกษาฝึกงาน</h1>
+            <p>Game Development Studio | Internship Program 2025</p>
+        </header>
+
+        <div class="content">
+            <div class="intro">
+                <h2>ตำแหน่งที่เปิดรับสมัคร</h2>
+                <p>เข้าร่วมทีมพัฒนาเกมมืออาชีพ! เรียนรู้และสร้างสรรค์เกมคุณภาพระดับสากล<br>
+                ร่วมงานกับโปรเจค: Regulus - The Advent, Father Son Holy Guns และอื่นๆ</p>
+            </div>
+
+            <div class="positions-grid">
+                <div class="position-card">
+                    <h3>Game Designer</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 2 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Game Design, Interactive Media</div>
+                    <a href="game-design.html" class="btn">ดูรายละเอียด</a>
+                </div>
+
+                <div class="position-card">
+                    <h3>Animator</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 2 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Animation, Multimedia</div>
+                    <a href="animation.html" class="btn">ดูรายละเอียด</a>
+                </div>
+
+                <div class="position-card">
+                    <h3>UX/UI Designer</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 2 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Digital Art, Communication Arts, Graphic Design</div>
+                    <a href="ux-ui-design.html" class="btn">ดูรายละเอียด</a>
+                </div>
+
+                <div class="position-card">
+                    <h3>3D Artist</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 1 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Animation, Multimedia, Digital Art</div>
+                    <a href="3d-artist.html" class="btn">ดูรายละเอียด</a>
+                </div>
+
+                <div class="position-card">
+                    <h3>QA Tester</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 1 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Computer Science, Game Development</div>
+                    <a href="qa-testing.html" class="btn">ดูรายละเอียด</a>
+                </div>
+
+                <div class="position-card">
+                    <h3>Software Developer (Web & Backend)</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 2 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Computer Science, Software Engineering</div>
+                    <a href="software-dev.html" class="btn">ดูรายละเอียด</a>
+                </div>
+
+                <div class="position-card">
+                    <h3>Technical Artist</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 1 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Computer Science, Animation</div>
+                    <a href="technical-artist.html" class="btn">ดูรายละเอียด</a>
+                </div>
+
+                <div class="position-card">
+                    <h3>Marketing</h3>
+                    <div class="detail"><strong>จำนวน:</strong> 1 ตำแหน่ง</div>
+                    <div class="detail"><strong>ระยะเวลา:</strong> 4-6 เดือน (ยืดหยุ่น)</div>
+                    <div class="detail"><strong>สาขา:</strong> Marketing, Communication Arts</div>
+                    <a href="marketing.html" class="btn">ดูรายละเอียด</a>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <h2>กระบวนการสมัคร</h2>
+                <div class="timeline-item">
+                    <div class="timeline-date">ขั้นตอนที่ 1</div>
+                    <div class="timeline-content">Application Review: ตรวจสอบเอกสาร Resume/CV, Portfolio, Transcript</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">ขั้นตอนที่ 2</div>
+                    <div class="timeline-content">Video Interview: สัมภาษณ์ออนไลน์</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">ขั้นตอนที่ 3</div>
+                    <div class="timeline-content">Technical Assessment: ทดสอบทักษะ, ตรวจสอบผลงาน</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">ขั้นตอนที่ 4</div>
+                    <div class="timeline-content">Final Interview: สัมภาษณ์ครั้งสุดท้าย และประกาศผล</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">ระยะเวลา</div>
+                    <div class="timeline-content">รอบ 1st Semester (ส.ค.-ธ.ค.) | 2nd Semester (ม.ค.-พ.ค.) | Summer (มิ.ย.-ก.ค.)</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>สนใจสมัครหรือสอบถามข้อมูลเพิ่มเติม</p>
+            <p>Email: <a href="mailto:internship@company.com">internship@company.com</a> | Tel: 02-XXX-XXXX</p>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">© 2568 All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
