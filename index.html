@@ -187,6 +187,30 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            .timeline {
+                padding: 20px;
+            }
+            .timeline-item {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+            .timeline-date {
+                flex-basis: auto;
+                margin-bottom: 10px;
+                white-space: normal;
+            }
+
+            .timeline-content {
+                word-wrap: break-word;
+                white-space: normal;
+            }
+        }
     </style>
 </head>
 <body>
