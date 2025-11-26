@@ -124,34 +124,6 @@ h2 {
     padding: 30px;
     transition: transform 0.3s, box-shadow 0.3s;
     border: 2px solid #e9ecef;
-}
-
-.position-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(232, 19, 114, 0.3);
-}
-
-.position-card h3 {
-    font-family: 'Lilita One', cursive;
-    color: #E81372;
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-}
-
-.position-card h3::before {
-    content: "📌";
-    margin-right: 10px;
-    font-size: 1.2em;
-}
-
-.position-card .detail {
-    margin: 10px 0;
-    color: #555;
-}
-
-.position-card .detail strong {
     color: #333;
 }
 
