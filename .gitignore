@@ -11,3 +11,7 @@ node_modules/
 
 # Old files
 _old/
+
+# Poster directory
+Poster/
+JumboJumps_Logo_CI
